@@ -12,7 +12,7 @@ function Login() {
   const [email, setEmail] = useState<string>("");
   const [password, setPassword] = useState<string>("");
   const navigate = useNavigate();
-  const BACK_URL = process.env.REACT_APP_BACKEND_ADDRESS;
+  const BACK_URL = import.meta.env.VITE_BACKEND_ADDRESS;
 
   const handleLogin = async (e: FormEvent) => {
     e.preventDefault();

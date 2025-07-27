@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "question": "장기적 전략보다, 나의 개인 시간을 존중해주는 직장이 더 중요하다.",
+    "positive_category": "Workload",
+    "negative_category": "VisionDirection"
+  },
+  {
+    "id": 2,
+    "question": "복지보다도, 내가 일한 만큼 보상받는 구조가 더 중요하다.",
+    "positive_category": "PayLevel",
+    "negative_category": "Welfare"
+  },
+  {
+    "id": 3,
+    "question": "동료들과의 유대감보다, 보상 체계가 명확한 회사에서 더 만족을 느낀다.",
+    "positive_category": "PayLevel",
+    "negative_category": "TeamCulture"
+  },
+  {
+    "id": 4,
+    "question": "공정한 평가 시스템이 갖춰진 회사가, 친근하고 소통이 활발한 팀보다 더 일하기 좋다.",
+    "positive_category": "Evaluation",
+    "negative_category": "TeamCulture"
+  },
+  {
+    "id": 5,
+    "question": "회사 비전이 조금 불명확해도, 복지가 탄탄하면 충분히 만족할 수 있다.",
+    "positive_category": "Welfare",
+    "negative_category": "VisionDirection"
+  },
+  {
+    "id": 6,
+    "question": "좋은 사람들과 일하는 것보다 회사가 명확한 전략과 목표를 갖는 것이 더 중요하다.",
+    "positive_category": "VisionDirection",
+    "negative_category": "TeamCulture"
+  },
+  {
+    "id": 7,
+    "question": "복지가 아무리 좋아도 워라밸이 없다면 만족하기 어렵다.",
+    "positive_category": "Workload",
+    "negative_category": "Welfare"
+  },
+  {
+    "id": 8,
+    "question": "야근이 조금 있더라도, 미래가 뚜렷한 회사에서 일하고 싶다.",
+    "positive_category": "VisionDirection",
+    "negative_category": "Workload"
+  },
+  {
+    "id": 9,
+    "question": "복지보다 명확한 비전과 방향성을 가진 리더십이 더 중요하다.",
+    "positive_category": "VisionDirection",
+    "negative_category": "Welfare"
+  },
+  {
+    "id": 10,
+    "question": "자유롭게 피드백을 주고받는 수평적인 분위기가, 개인의 성과에 대한 정확한 평가보다 더 중요하다.",
+    "positive_category": "TeamCulture",
+    "negative_category": "Evaluation"
+  },
+  {
+    "id": 11,
+    "question": "회사가 체계적으로 성장 경로를 제시하는 것보다, 복지와 근무환경이 잘 갖춰진 곳이 더 좋다.",
+    "positive_category": "Welfare",
+    "negative_category": "Evaluation"
+  },
+  {
+    "id": 12,
+    "question": "연봉이 조금 낮더라도, 내가 성장할 수 있는 환경이 더 중요하다.",
+    "positive_category": "Evaluation",
+    "negative_category": "PayLevel"
+  },
+  {
+    "id": 13,
+    "question": "성과급보다는 따뜻하고 유쾌한 조직 분위기가 더 중요하다.",
+    "positive_category": "TeamCulture",
+    "negative_category": "PayLevel"
+  },
+  {
+    "id": 14,
+    "question": "보상은 조금 부족해도, 내가 공감할 수 있는 방향을 가진 회사가 좋다.",
+    "positive_category": "VisionDirection",
+    "negative_category": "PayLevel"
+  },
+  {
+    "id": 15,
+    "question": "복지나 제도보다는 내 성장 가능성을 지원해주는 회사가 더 좋다.",
+    "positive_category": "Evaluation",
+    "negative_category": "Welfare"
+  },
+  {
+    "id": 16,
+    "question": "퇴근 후 시간이 줄어들어도, 내가 속한 회사가 어디로 가는지 아는 게 더 중요하다.",
+    "positive_category": "VisionDirection",
+    "negative_category": "Workload"
+  },
+  {
+    "id": 17,
+    "question": "퇴근이 조금 늦어지더라도, 미래가 뚜렷한 회사에서 일하고 싶다.",
+    "positive_category": "VisionDirection",
+    "negative_category": "Workload"
+  },
+  {
+    "id": 18,
+    "question": "복지와 제도가 잘 갖춰진 회사가 팀 분위기보다 훨씬 중요하다.",
+    "positive_category": "Welfare",
+    "negative_category": "TeamCulture"
+  },
+  {
+    "id": 19,
+    "question": "복지보다 워라밸이 더 중요하다. 아무리 좋아도 쉴 틈이 없으면 의미 없다.",
+    "positive_category": "Workload",
+    "negative_category": "Welfare"
+  },
+  {
+    "id": 20,
+    "question": "성과 중심의 평가는 중요하지 않다. 대신 복지나 제도가 좋아야 한다.",
+    "positive_category": "Welfare",
+    "negative_category": "Evaluation"
+  },
+  {
+    "id": 21,
+    "question": "팀워크보다는 개인의 노력에 따라 보상이 주어지는 구조가 더 효율적이라고 생각한다.",
+    "positive_category": "PayLevel",
+    "negative_category": "TeamCulture"
+  },
+  {
+    "id": 22,
+    "question": "성장 가능성은 낮아도 나의 시간을 보장해주는 직장이 더 이상적이다.",
+    "positive_category": "Workload",
+    "negative_category": "Evaluation"
+  },
+  {
+    "id": 23,
+    "question": "동료들과의 관계나 소통이 보상 체계보다 더 중요하다.",
+    "positive_category": "TeamCulture",
+    "negative_category": "PayLevel"
+  },
+  {
+    "id": 24,
+    "question": "공정한 평가와 피드백이 나를 성장시킨다. 복지보다는 경력 개발이 우선이다.",
+    "positive_category": "Evaluation",
+    "negative_category": "Welfare"
+  },
+  {
+    "id": 25,
+    "question": "보상은 중요하지만, 내가 공감할 수 있는 회사의 방향성이 더 우선이다.",
+    "positive_category": "VisionDirection",
+    "negative_category": "PayLevel"
+  },
+  {
+    "id": 26,
+    "question": "명확한 회사 방향보다, 야근 없는 일상과 휴식이 더 중요하다.",
+    "positive_category": "Workload",
+    "negative_category": "VisionDirection"
+  },
+  {
+    "id": 27,
+    "question": "복지나 사내제도보다, 동료들과의 관계나 소통이 더 만족감을 준다.",
+    "positive_category": "TeamCulture",
+    "negative_category": "Welfare"
+  },
+  {
+    "id": 28,
+    "question": "일은 많더라도 실질적인 커리어 발전이 가능하다면 감수할 수 있다.",
+    "positive_category": "Evaluation",
+    "negative_category": "Workload"
+  },
+  {
+    "id": 29,
+    "question": "내 커리어보다, 장기적으로 믿고 갈 수 있는 회사의 방향성이 더 중요하다.",
+    "positive_category": "VisionDirection",
+    "negative_category": "Evaluation"
+  },
+  {
+    "id": 30,
+    "question": "팀 분위기보다 평가나 피드백이 명확한 회사가 더 좋다.",
+    "positive_category": "Evaluation",
+    "negative_category": "TeamCulture"
+  }
+]

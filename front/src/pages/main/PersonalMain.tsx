@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import "./styles/PersonalMain.css";
+import "./main.css";
 import NotMemberNavigation from "../../components/NotMemberNavigation";
 import ResumeRegistrationIcon from "../../assets/icon/ResumeRegistrationIcon.svg";
 import UpAnimation from "../../assets/icon/UpAnimation.svg";

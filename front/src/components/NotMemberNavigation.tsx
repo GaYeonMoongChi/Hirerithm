@@ -1,5 +1,5 @@
 import { useState } from "react";
-import HirerithmLogo from "../../Image/logo/NavigationLogo.png";
+import HirerithmLogo from "@/assets/logo/NavigationLogo.png";
 import "./navigation.css";
 import { useNavigate, useLocation } from "react-router-dom";
 

@@ -1,0 +1,354 @@
+/* 전체 */
+strong {
+  color: #008a34;
+}
+
+.resume-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.resume-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.resume-form-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.resume-form-item label {
+  font-weight: 400;
+  font-size: 15px;
+  margin-right: 20px;
+  width: 75%;
+  padding-right: 10px;
+}
+
+.resume-form-item input,
+.resume-form-item select,
+.resume-form-item textarea {
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 5px 20px;
+  cursor: pointer;
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  font-size: 20px;
+  border-bottom: 1px solid #c0c0c0;
+  resize: none;
+  box-sizing: border-box;
+  transition: border-bottom 0.3s ease, background-color 0.3s ease;
+}
+
+.resume-form-item select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.resume-form-item textarea {
+  border: 1px solid #c0c0c0;
+}
+
+.resume-form-item input:hover,
+.resume-form-item textarea:hover,
+.resume-form-item select:hover {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 6px -2px (0, 0, 0, 0.1);
+  border-bottom: 1px solid #008a34;
+  background-color: #f2fff7;
+  padding: 5px 20px;
+  cursor: pointer;
+  width: 100%;
+  background-color: transparent;
+}
+
+.resume-form-item input:focus,
+.resume-form-item select:focus,
+.resume-form-item textarea:focus,
+.resume-form-gra_sta select:focus,
+.resume-form-edu select:focus {
+  outline: none !important;
+}
+
+.resume-form-item input::placeholder,
+.resume-form-item textarea::placeholder {
+  color: #c0c0c0;
+  font-size: 20px;
+}
+
+input:-webkit-autofill {
+  background-color: none !important;
+  -webkit-box-shadow: 0 0 0px 1000px none inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.resume-form-item > div {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 8px;
+}
+
+.resume-form-edu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.resume-form-edu input,
+.resume-form-edu select {
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 5px 20px;
+  cursor: pointer;
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  font-size: 20px;
+  border-bottom: 1px solid #c0c0c0;
+  resize: none;
+  box-sizing: border-box;
+}
+
+.resume-form-edu select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.resume-form-gra_sta {
+  width: 100%;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.resume-form-gra_sta label {
+  font-weight: 400;
+  font-size: 15px;
+  margin-right: 20px;
+  width: 75%;
+  border-right: 1px solid #1e1e1e30;
+  padding-right: 10px;
+}
+
+.resume-form-gra_sta input:hover,
+.resume-form-edu select:focus {
+  box-shadow: 0 4px 6px -2px (0, 0, 0, 0.1);
+  border-bottom: 2px solid #008a34;
+  cursor: pointer;
+}
+
+.resume-form-gra_sta select {
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 5px 20px;
+  cursor: pointer;
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  font-size: 20px;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+.resume-form-checkbox {
+  width: 100%;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.exam-checkbox {
+  width: auto !important;
+  padding: 0 !important;
+  margin-left: 10px !important;
+  cursor: pointer !important;
+  border: none !important;
+  border-bottom: none !important;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-button img {
+  width: 15px;
+  height: 15px;
+}
+
+.plus-button {
+  border: 1px solid #c0c0c0;
+  background-color: #ebf8f070;
+  color: #1e1e1e;
+  border-radius: 10px;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+  margin: 0 auto;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.plus-button:hover {
+  border: 1px solid #008a34;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.plus-button img {
+  width: 25px;
+  height: 25px;
+}
+
+/* 나이 표시 */
+.age-display {
+  font-size: 15px;
+  color: #333;
+  width: 20%;
+  align-items: center;
+  margin: 0;
+  font-weight: 500;
+}
+
+/* 맞춤기업 TEST 결과 */
+.test-result-title {
+  margin-bottom: 0;
+  font-size: 25px;
+}
+
+.test-result-detail {
+  font-size: 17px;
+  color: #00a896;
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.test-result-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 40px;
+  gap: 10px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.test-result-item ul {
+  width: 35%;
+}
+
+.test-result-item ul li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  width: 100%;
+  align-items: center;
+}
+
+.test-page-button {
+  border: 1px solid #c0c0c0;
+  background-color: #ebf8f070;
+  color: #1e1e1e;
+  border-radius: 10px;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+  margin: 0 auto;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.test-page-button:hover {
+  border: 1px solid #008a34;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.test-result-item label {
+  font-weight: 500;
+  font-size: 20px;
+  margin-right: 20px;
+  width: 75%;
+  border-right: 1px solid #1e1e1e30;
+  padding-right: 10px;
+}
+
+.test-category {
+  background-color: #008a34;
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  margin-right: 10px;
+}
+
+.result-score {
+  width: 25%;
+  font-size: 20px;
+}
+
+/*메크로용 폼 부분*/
+.input-item {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.test-result-input-item label {
+  width: 30%;
+}
+
+.test-result-input-item input {
+  width: 60%;
+}
+
+.test-result-input-item {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.won {
+  width: 20%;
+  font-size: 18px;
+}

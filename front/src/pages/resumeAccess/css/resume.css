@@ -1,0 +1,162 @@
+.resume-container {
+  margin-top: 130px;
+  margin-bottom: 50px;
+}
+
+.resume-container main {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.resume-container header {
+  margin-bottom: 10px;
+}
+
+.resume-container header p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #1e1e1e;
+  text-indent: 100px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+strong {
+  color: #008a34;
+}
+
+.resume-title-label {
+  font-weight: 500;
+  font-size: 20px;
+  color: #1e1e1e;
+  background: linear-gradient(to top, #c8e6c9 50%, transparent 50%);
+  padding: 2px 4px;
+  display: inline-block;
+}
+
+.others-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.others-label p {
+  color: #00a896;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.experience-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.experience-label p {
+  color: #00a896;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.test-result-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.test-result-label p {
+  color: #00a896;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.skills-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.skills-label p {
+  color: #00a896;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+/* 이력서 서명란 */
+.resume-signature-section {
+  width: 60%;
+  margin: 100px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ebf8f0;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+  margin-bottom: 10px;
+}
+
+.resume-signature-section p {
+  text-align: center;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.signature-author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  gap: 15px;
+}
+
+.signature-author label {
+  font-size: 20px;
+}
+
+.signature-author input {
+  width: 40%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #1e1e1e;
+  font-size: 20px;
+  padding: 5px 20px;
+  text-align: center;
+}
+
+.signature-author input:focus {
+  outline: none;
+}
+
+.signature-author input::placeholder {
+  font-size: 20px;
+  color: #c0c0c0;
+}
+
+.signature-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  margin-top: 25px;
+}
+
+.signature-buttons button {
+  border: none;
+  background-color: #008a34;
+  color: #ebf8f0;
+  border-radius: 10px;
+  padding: 0.5em 1.5rem;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.signature-buttons button:hover {
+  background-color: #016b2a;
+}

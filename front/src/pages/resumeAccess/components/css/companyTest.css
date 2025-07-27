@@ -1,0 +1,157 @@
+/* 페이지 인덱스. */
+.image-recommend_wrapper header {
+  width: 100%;
+}
+
+.image-recommend_page-index-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f2fff7;
+  border-left: 4px solid #008a34;
+  padding-left: 10px;
+  width: calc(100% - 100px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 10px 10px 0px;
+}
+
+.image-recommend_page-index-wrapper img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.image-recommend_page-index-wrapper h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #1e1e1e;
+}
+
+.image-recommend_wrapper header p {
+  font-weight: 500;
+  font-size: 18px;
+  color: #008a34;
+  text-indent: 100px;
+}
+
+/* 메인 */
+.company-test_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  width: 100%;
+}
+
+.company-test_title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+/* 질문 */
+.company-test_question-block {
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.company-test_question {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+/* 선택지 */
+.company-test_choices {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  margin-top: 30px;
+}
+
+.company-test_choice-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 140px;
+}
+
+.company-test_choice-wrapper label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.company-test_choice-wrapper input[type="radio"] {
+  appearance: none;
+  border-radius: 50%;
+  background-color: rgba(28, 134, 69, 0.4);
+  transition: 0.3s;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.company-test_choice-wrapper input[type="radio"]:checked {
+  background-color: #008a34;
+}
+
+.label-text {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 13px;
+  color: #1e1e1e;
+  white-space: nowrap;
+  text-align: center;
+  width: 100%;
+}
+
+.company-test_choice-label {
+  position: relative;
+  color: #1e1e1e;
+  white-space: nowrap;
+  text-align: center;
+  width: 100%;
+}
+
+/* 라디오 버튼 크기 조정 클래스 */
+
+.size-sm input[type="radio"] {
+  width: 85px;
+  height: 85px;
+  /*margin-top: 40px;*/
+}
+
+.size-md input[type="radio"] {
+  width: 85px;
+  height: 85px;
+  /*margin-top: 30px;*/
+}
+
+.size-lg input[type="radio"] {
+  width: 85px;
+  height: 85px;
+  /*margin-top: 20px;*/
+}
+
+/* 제출 */
+.company-test_submit-btn {
+  background-color: #008a34;
+  color: #f2fff7;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  font-size: 1rem;
+  margin-top: 40px;
+}
+
+.company-test_submit-btn:hover {
+  background-color: #00724d;
+  font-weight: bold;
+}
