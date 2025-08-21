@@ -1,0 +1,213 @@
+.strength-category-result_wrapper {
+  margin-top: 130px;
+  margin-bottom: 50px;
+}
+
+/* 페이지 인덱스. */
+.strength-category-result_wrapper header {
+  width: 100%;
+}
+
+.strength-category-result_page-index-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f2fff7;
+  border-left: 4px solid #008a34;
+  padding-left: 10px;
+  width: calc(100% - 100px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 10px 10px 0px;
+}
+
+.strength-category-result_page-index-wrapper img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.strength-category-result_page-index-wrapper h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #1e1e1e;
+}
+
+.strength-category-result_wrapper header p {
+  font-weight: 500;
+  font-size: 18px;
+  color: #008a34;
+  margin-left: 100px;
+}
+
+/* main */
+.strength-category-result_wrapper2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+
+.strength-category-result_keyword-wrapper {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f2fff7;
+  border: none;
+  border-radius: 10px;
+  padding: 0px 20px 20px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.strength-category-result_keyword-wrapper > span {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #c8e6c9;
+  margin-bottom: 40px;
+}
+
+.strength-category-result_keyword {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.keyword-result-title {
+  font-size: 22px;
+  margin: 0;
+  padding: 15px;
+  border-bottom: 1px solid #c0c0c0;
+  width: 100%;
+  color: #1e1e1e;
+  font-weight: 600;
+}
+
+.keyword-detail {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.keyword-detail p {
+  color: #1e1e1e;
+  font-size: 18px;
+}
+
+.keyword {
+  background-color: #008a34;
+  padding: 5px 15px;
+  border-radius: 20px;
+  color: #f2fff7;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+/* 전체 점수표 */
+.strength-category-result_score-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+}
+
+.strength-category-result_strength-box-header,
+.strength-category-result_score-header h3 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #1e1e1e;
+  margin-left: 100px;
+  background: linear-gradient(to top, #c8e6c9 50%, transparent 50%);
+  padding: 2px 4px; /* 여백 조절 */
+  display: inline-block;
+}
+
+.strength-category-result_score-header > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-right: 100px;
+}
+
+.strength-category-result_score-header > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.strength-category-result_score-list {
+  width: 60%;
+  margin: 0 auto;
+  border: none;
+  border-radius: 10px;
+  background-color: #f2fff7;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 40px;
+}
+
+.strength-category-result_score-list > li::marker {
+  font-size: 19px;
+  color: #1e1e1e;
+}
+
+.score-list-item > strong {
+  font-size: 19px;
+  color: #1e1e1e;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.score-list-item > ul {
+  font-size: 17px;
+  color: #1e1e1e;
+  font-weight: 500;
+}
+
+.score-list-item > ul > li {
+  margin-bottom: 8px;
+}
+
+.score-list-item > ul > li > span {
+  background-color: #008a34;
+  color: #f2fff7;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.strength-category-result_job-seeker-button {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: #008a3466;
+  color: #f2fff7;
+  border: none;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  border-radius: 8px 0 0 8px;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.strength-category-result_job-seeker-button:hover {
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.3);
+}

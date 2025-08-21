@@ -1,0 +1,177 @@
+.image-recommend_wrapper {
+  margin-top: 130px;
+  margin-bottom: 50px;
+}
+
+/* 페이지 인덱스. */
+.image-recommend_wrapper header {
+  width: 100%;
+}
+
+.image-recommend_page-index-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f2fff7;
+  border-left: 4px solid #008a34;
+  padding-left: 10px;
+  width: calc(100% - 100px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 10px 10px 0px;
+}
+
+.image-recommend_page-index-wrapper img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.image-recommend_page-index-wrapper h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #1e1e1e;
+}
+
+.image-recommend_wrapper header p {
+  font-weight: 500;
+  font-size: 18px;
+  color: #008a34;
+  text-indent: 100px;
+}
+
+/* 메인 */
+.image-recommend_wrapper main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.recommend-icon {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+
+/* 기업명 입력창 */
+.image-recommend_corporate-name-input-wrapper {
+  position: relative;
+  width: calc(100% - 300px);
+  margin-bottom: 70px;
+  margin-top: 30px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.image-recommend_corporate-name-input-wrapper label {
+  font-weight: 500;
+  font-size: 20px;
+  color: #1e1e1e;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.image-recommend_corporate-name-input-wrapper input {
+  width: 100%;
+  padding: 12px 40px 12px 15px;
+  border: 2px solid #008a34;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.image-recommend_corporate-name-input-wrapper input:focus {
+  border: 2px solid #008a34 !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.image-recommend_corporate-name-input-wrapper input::placeholder {
+  font-size: 15px;
+  color: #1e1e1e70;
+}
+
+.image-recommend_corporate-name-input-wrapper button {
+  position: absolute;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.image-recommend_corporate-name-input-wrapper button img {
+  width: 20px;
+  height: 20px;
+}
+
+.image-recommend_result-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #008a34;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 20px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #f2fff7;
+  margin-top: 50px;
+}
+
+.image-recommend_result-button img {
+  width: 19px;
+  height: auto;
+}
+
+/* 기업명 자동완성 */
+.autocomplete-suggestions {
+  position: absolute;
+  top: 100%;
+  width: 103%;
+  max-height: 180px;
+  overflow-y: auto;
+  background-color: #f5f5f5;
+  border: 1px solid #f2fff7;
+  border-radius: 4px;
+  z-index: 100;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.autocomplete-suggestions li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.autocomplete-suggestions li:hover {
+  background-color: #c0c0c0;
+}
+
+.loading-indicator {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1rem;
+  padding: 1rem;
+  justify-content: center;
+  color: #333;
+}
+
+.spinner {
+  width: 24px;
+  height: 24px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
